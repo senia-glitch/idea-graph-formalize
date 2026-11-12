@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ideagraph-formalize"
+name = "idea-graph-formalize"
 version = "0.1.0"
 description = "Пакет-скилл: формализация веток графа в требования с критериями приёмки"
 readme = "README.md"
@@ -13,14 +13,14 @@ dependencies = []
 [project.optional-dependencies]
 test = ["pytest"]
 
-[project.entry-points."ideagraph.packages"]
-formalize = "ideagraph_formalize:manifest"
+[project.entry-points."idea_graph.packages"]
+formalize = "idea_graph_formalize:manifest"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-ideagraph_formalize = ["*.md"]
+idea_graph_formalize = ["*.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

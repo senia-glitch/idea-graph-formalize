@@ -9,7 +9,7 @@
 pip install -e .
 ```
 
-Нужны `ideagraph-core` и `ideagraph-shell`.
+Нужны `idea-graph-core` и `idea-graph-shell`.
 
 ## Тесты
 
